@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Stopwatch</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+
+<body>
+    <div class="stopwatch">
+        <h1 id="timer">00:00:00</h1>
+        <div class="buttons">
+            <ion-icon id="stp" name="stop-circle-outline" onclick="stop()"></ion-icon>
+            <ion-icon id="str" name="play-circle-outline" onclick="start()"></ion-icon>
+            <ion-icon id="res" name="refresh-circle-outline" onclick="reset()"></ion-icon>
+        </div>
+    </div>
+
+
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
